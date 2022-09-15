@@ -23,7 +23,7 @@ print('Output File: ', outputFile)
 # Possible Question File Types
 types = ('*.md', '*.markdown')
 
-questions_directory = inputDirectory + '/_questions\\'
+questions_directory = inputDirectory + '/_questions/'
 
 questions = []
 
