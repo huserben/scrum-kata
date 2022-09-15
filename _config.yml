@@ -34,9 +34,23 @@ random_redirect:
   documents: false
 
 # Build settings
-theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-feed
+
+collections:
+  # Define a collection named "tests", its documents reside in the "_tests" directory
+  questions:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "tests" collection
+    questions:
+      # Give the collection a name
+      name: Questions
 
 # Exclude from processing.
 # The following items will not be processed, by default.
