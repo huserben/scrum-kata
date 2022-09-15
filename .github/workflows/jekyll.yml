@@ -13,5 +13,4 @@ jobs:
       - uses: helaili/jekyll-action@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          pre_build_commands: gem install bundler:2.2.25
           target_branch: 'gh-pages'
