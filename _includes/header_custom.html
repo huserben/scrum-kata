@@ -3,7 +3,7 @@
 <head>
     <script>
         function openRandomQuestion() {
-            fetch('https://raw.githubusercontent.com/huserben/scrum-questions/gh-pages/data.json')
+            fetch('https://raw.githubusercontent.com/huserben/scrum-questions/gh-pages/questions.json')
                 .then(result => result.json())
                 .then((questions) => {
                     var question = questions[Math.floor(Math.random()*questions.length)];
