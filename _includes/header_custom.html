@@ -6,15 +6,21 @@
             fetch('https://raw.githubusercontent.com/huserben/scrum-questions/gh-pages/questions.json')
                 .then(result => result.json())
                 .then((questions) => {
-                    var question = questions[Math.floor(Math.random()*questions.length)];
+                    var question = questions[Math.floor(Math.random() * questions.length)];
                     window.location.href = `/scrum-questions/questions/${question.path}`
                 }).catch(err => console.error(err));
         }
     </script>
+
+    <style>
+        p {
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
-    <button onclick="openRandomQuestion()">Random</button>
+    <p  onclick="openRandomQuestion()">Random Question</p>
 </body>
 
 </html>
