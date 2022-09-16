@@ -16,7 +16,7 @@
                 .then(response => response.text())
                 .then(result => {
                     var element = document.createElement('a');
-                    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + result);
+                    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(result));
                     element.setAttribute('download', "questions.csv");
 
                     element.style.display = 'none';
