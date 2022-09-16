@@ -10,17 +10,36 @@
                     window.location.href = `/scrum-questions/questions/${question.path}`
                 }).catch(err => console.error(err));
         }
+
+        function downloadCsv() {
+            fetch('https://raw.githubusercontent.com/huserben/scrum-questions/gh-pages/questions.csv')
+                .then(response => response.text())
+                .then(result => {
+                    var element = document.createElement('a');
+                    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + result);
+                    element.setAttribute('download', "questions.csv");
+
+                    element.style.display = 'none';
+                    document.body.appendChild(element);
+
+                    element.click();
+
+                    document.body.removeChild(element);
+                })
+        }
     </script>
 
     <style>
         p {
             cursor: pointer;
+            margin-left: 5em;
         }
     </style>
 </head>
 
 <body>
-    <p  onclick="openRandomQuestion()">Random Question</p>
+    <p onclick="downloadCsv()">Download Questions</p>
+    <p onclick="openRandomQuestion()">Random Question</p>
 </body>
 
 </html>
