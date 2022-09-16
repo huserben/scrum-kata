@@ -4,3 +4,4 @@ _site
 .jekyll-metadata
 vendor
 questions.json
+.DS_Store
