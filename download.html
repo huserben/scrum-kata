@@ -2,15 +2,6 @@
 
 <head>
     <script>
-        function openRandomQuestion() {
-            fetch('https://raw.githubusercontent.com/huserben/scrum-questions/gh-pages/questions.json')
-                .then(result => result.json())
-                .then((questions) => {
-                    var question = questions[Math.floor(Math.random() * questions.length)];
-                    window.location.href = `/scrum-questions/questions/${question.path}`
-                }).catch(err => console.error(err));
-        }
-
         function downloadCsv() {
             fetch('https://raw.githubusercontent.com/huserben/scrum-questions/gh-pages/questions.csv')
                 .then(response => response.text())
@@ -25,21 +16,16 @@
                     element.click();
 
                     document.body.removeChild(element);
+
+                    history.back();
                 })
         }
-    </script>
 
-    <style>
-        p {
-            cursor: pointer;
-            margin-left: 5em;
-        }
-    </style>
+        downloadCsv();
+    </script>
 </head>
 
 <body>
-    <p onclick="downloadCsv()">Download Questions</p>
-    <p onclick="openRandomQuestion()">Random Question</p>
 </body>
 
 </html>
