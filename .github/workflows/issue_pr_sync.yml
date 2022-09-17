@@ -1,0 +1,25 @@
+name: Create PRs for added issues
+
+on:
+  issues:
+    types: 
+      - opened
+
+jobs:
+  createPr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Create Questions Index
+        run: |
+          python ./create_question.py
+
+      - name: Print GitHub event action
+        run: |
+          echo "${{ github.event.action }}"
