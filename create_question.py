@@ -22,7 +22,12 @@ if len(sys.argv) != 3:
 question_title = sys.argv[1]
 question_body_raw = sys.argv[2]
 
-question_body = ""
+question_body = """---
+layout: post
+title: \"{0}\"
+---
+""".format(question_title)
+
 is_content_line = False
 
 for line in question_body_raw.splitlines():
