@@ -28,3 +28,5 @@ LS. Link to notion blogpost?
 
 # Submit your Questions
 Add some nice form to submit individual questions. Add contacts in case someone wants to bring along a set of questions (PR might not be suitable for this :-)
+
+{% include contact-form.html %}

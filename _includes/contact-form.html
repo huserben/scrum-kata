@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <script>
+        function setAction(formData){
+            var title = encodeURIComponent(formData.title.value);
+
+            var body = `Author: ${formData.email.value}\r
+            ---\r${formData.question.value}`;
+
+            window.location.href = `https://github.com/huserben/scrum-questions/issues/new?title=${title}&body=${encodeURIComponent(body).trim()}`;
+
+            return false;
+        }
+
+    </script>
+</head>
+
+<body>
+    <form action="#" onsubmit="return setAction(this)">
+        <div>
+            <label>
+                Your email:
+                <input type="email" name="email">
+            </label>
+        </div>
+        <div>
+            <label>
+                Title:
+                <textarea name="title"></textarea>
+            </label>
+        </div>
+        <div>
+            <label>
+                Question:
+                <textarea name="question"></textarea>
+            </label>
+        </div>
+        <div>
+            <button type="submit">Send</button>
+        </div>
+    </form>
+</body>
+
+</html>
