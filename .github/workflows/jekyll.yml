@@ -17,6 +17,7 @@ jobs:
           python-version: 3.8
 
       - name: Create Questions Index
+        working-directory: Scripts
         run: |
           python ./question_indexer.py
 

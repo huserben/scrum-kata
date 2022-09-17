@@ -40,7 +40,11 @@ for line in question_body_raw.splitlines():
         is_content_line = True
         
 
-output_file = os.path.join(base_directory, "_questions", "{0}.md".format(question_title.lower().replace(" ", "_")))
+output_file = os.path.join(base_directory, "..", "_questions", "{0}.md".format(question_title.lower().replace(" ", "_")))
+
+if not question_title or not is_content_line:
+    print("No a valid Question - stopping")
+    exit(0)
 
 print('Output File: ', output_file)
 

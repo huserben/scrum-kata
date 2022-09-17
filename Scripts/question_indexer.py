@@ -17,8 +17,8 @@ import csv
 
 inputDirectory = os.path.dirname(os.path.realpath(__file__))
 
-outputFileJson = os.path.join(inputDirectory, "questions.json")
-outputFileCsv = os.path.join(inputDirectory, "questions.csv")
+outputFileJson = os.path.join(inputDirectory, "..", "questions.json")
+outputFileCsv = os.path.join(inputDirectory, "..", "questions.csv")
 
 print('Input Directory: ', inputDirectory)
 print('Output File json: ', outputFileJson)
@@ -27,7 +27,7 @@ print('Output File csv: ', outputFileCsv)
 # Possible Question File Types
 types = ('*.md', '*.markdown')
 
-questions_directory = inputDirectory + '/_questions/'
+questions_directory = os.path.join(inputDirectory, "..", '_questions/')
 
 questions = []
 csv_header = ['title', 'question']
