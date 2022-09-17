@@ -34,7 +34,7 @@ for line in question_body_raw.splitlines():
     line = line.strip()
     
     if is_content_line:
-        question_body += "{0}\r".format(line)
+        question_body += "{0}\n".format(line)
         
     if line.startswith("---"):
         is_content_line = True

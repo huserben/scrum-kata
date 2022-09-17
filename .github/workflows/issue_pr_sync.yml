@@ -24,4 +24,6 @@ jobs:
         uses: peter-evans/create-pull-request@v4
         with:
           delete-branch: true
-          body: "#${{ github.event.issue.id }}"
+          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
+          title: "${{ github.event.issue.title }}"
+          body: "#${{ github.event.issue.number }}"
