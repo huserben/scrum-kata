@@ -20,6 +20,8 @@ jobs:
         run: |
           python ./create_question.py "${{ github.event.issue.title }}" "${{ github.event.issue.body }}"
 
-      - name: Print GitHub event
-        run: |
-          echo "${{ github.event.issue.id }}"
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          delete-branch: true
+          body: "#${{ github.event.issue.id }}"
