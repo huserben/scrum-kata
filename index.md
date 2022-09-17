@@ -20,13 +20,28 @@ Want to submit your own questions? Awesome - click the Button and we'll tell you
 
 ---
 
-# How to use the Questions
+## How to use the Questions
 Some Info on how to use the questions? PSM 1/2/3 assessments. CoPs? Internal Trainings etc.
 
-# Facilitation Tips
+## Facilitation Tips
 LS. Link to notion blogpost?
+
+## Contributing
+When contributing to this repository, please first discuss the change you wish to make via issue,
+email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/just-the-docs/just-the-docs#contributing).
 
 # Submit your Questions
 Add some nice form to submit individual questions. Add contacts in case someone wants to bring along a set of questions (PR might not be suitable for this :-)
 
 {% include contact-form.html %}
+
+
+### Thank you to the contributors of Scrum Kata!
+
+<ul class="list-style-none">
+{% for contributor in site.github.contributors %}
+  <li class="d-inline-block mr-1">
+     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
+  </li>
+{% endfor %}
+</ul>
