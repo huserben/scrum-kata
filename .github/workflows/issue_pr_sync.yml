@@ -22,4 +22,7 @@ jobs:
 
       - name: Print GitHub event
         run: |
-          echo "${{ github.event }}"
+          echo "${{ github.event.issue }}"
+          echo "${{ github.event.issue.id }}"
+          echo "${{ github.event.issue.id }}"
+          echo "${{ github.event.issue.body }}"
