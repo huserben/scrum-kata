@@ -21,11 +21,7 @@
     </script>
     <style>
         /* Style inputs with type="text", select elements and textareas */
-        input[type=text],
-        input[type=email],
-        input[type=checkbox],
-        select,
-        textarea {
+        .form_input {
             width: 100%;
             /* Full width */
             padding: 12px;
@@ -45,7 +41,7 @@
         }
 
         /* Style the submit button with a specific background color etc */
-        input[type=submit] {
+        #contactFormSubmit {
             background-color: #04AA6D;
             color: white;
             padding: 12px 20px;
@@ -55,7 +51,7 @@
         }
 
         /* When moving the mouse over the submit button, add a darker green color */
-        input[type=submit]:hover {
+        #contactFormSubmit:hover {
             background-color: #45a049;
         }
 
@@ -73,18 +69,18 @@
         <form action="#" onsubmit="return setAction(this)">
 
             <label for="emailInput"> Your email</label>
-            <input type="email" id="emailInput" name="email" placeholder="mycontact@gmail.com" required>
+            <input class="form_input" type="email" id="emailInput" name="email" placeholder="mycontact@gmail.com" required>
 
 
             <label for="titleInput">Title</label>
-            <input type="text" id="titleInput" name="title" placeholder="Title of your Question..." required>
+            <input class="form_input" type="text" id="titleInput" name="title" placeholder="Title of your Question..." required>
 
 
             <label for="questionInput">Question</label>
-            <textarea name="question" id="questionInput" placeholder="Question goes here..."
+            <textarea class="form_input" name="question" id="questionInput" placeholder="Question goes here..."
                 style="height:200px" required></textarea>
 
-            <input type="submit" value="Submit">
+            <input class="form_input" id="contactFormSubmit" type="submit" value="Submit">
         </form>
     </div>
 </body>
