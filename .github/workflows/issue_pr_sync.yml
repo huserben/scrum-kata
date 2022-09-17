@@ -20,6 +20,6 @@ jobs:
         run: |
           python ./create_question.py
 
-      - name: Print GitHub event action
+      - name: Print GitHub event
         run: |
-          echo "${{ github.event.action }}"
+          echo "${{ github.event }}"
