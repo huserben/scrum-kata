@@ -18,11 +18,8 @@ jobs:
 
       - name: Create Questions Index
         run: |
-          python ./create_question.py
+          python ./create_question.py "${{ github.event.issue.title }}" "${{ github.event.issue.body }}"
 
       - name: Print GitHub event
         run: |
-          echo "${{ github.event.issue }}"
           echo "${{ github.event.issue.id }}"
-          echo "${{ github.event.issue.id }}"
-          echo "${{ github.event.issue.body }}"
