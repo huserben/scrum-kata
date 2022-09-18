@@ -1,0 +1,50 @@
+name: Check Spelling of Questions
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  getchangedfiles:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Get changed files in the _questions folder
+        id: changed-files
+        uses: tj-actions/changed-files@v29.0.7
+        with:
+          files: |
+            _questions/**
+
+      - name: Put Changed Files in Matrix
+        id: changedFilesMatrix
+        run: |
+
+          MATRIX = "[" 
+
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "$file was changed"
+            MATRIX = "${MATRIX}\"${file}\", "
+          done
+
+          MATRIX = "${MATRIX::-2}]"
+          echo "${MATRIX}"
+          echo '::set-output name=value::${MATRIX}'
+
+  spellcheck:
+    runs-on: ubuntu-latest
+    needs: [getchangedfiles]
+    strategy:
+      matrix:
+        value: ${{fromJson(needs.getchangedfiles.outputs.changedFilesMatrix)}}
+        
+    steps:
+      - run: |
+          echo "${{ matrix.value }}"
