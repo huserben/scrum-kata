@@ -8,6 +8,8 @@ on:
 jobs:
   getchangedfiles:
     runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.changedFilesMatrix.outputs.changed_file_matrix }}
     steps:
       - uses: actions/checkout@v2
 
@@ -36,14 +38,14 @@ jobs:
 
           MATRIX="${MATRIX::-2}]"
           echo "${MATRIX}"
-          echo "::set-output name=value::${MATRIX}"
+          echo "::set-output name=changed_file_matrix::${MATRIX}"
 
   spellcheck:
     runs-on: ubuntu-latest
     needs: [getchangedfiles]
     strategy:
       matrix:
-        value: ${{needs.getchangedfiles.outputs.changedFilesMatrix}}
+        value: ${{fromJSON(needs.getchangedfiles.outputs.changed_file_matrix)}}
 
     steps:
       - run: |
