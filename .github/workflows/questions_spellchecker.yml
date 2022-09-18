@@ -41,7 +41,7 @@ jobs:
           len=`echo ${MATRIX} |awk '{print length}'`
           if [ $len -lt 3 ]; then
             echo "No changed files"
-            MATRIX="${MATRIX}]"
+            MATRIX="${MATRIX}'none']"
           else
             MATRIX="${MATRIX::-1}]"
           fi
