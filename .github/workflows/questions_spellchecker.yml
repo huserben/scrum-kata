@@ -52,3 +52,4 @@ jobs:
         name: Spellcheck
         with:
           source_files: ${{ matrix.value }}
+          task_name: Markdown
