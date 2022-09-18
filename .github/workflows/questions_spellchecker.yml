@@ -27,14 +27,14 @@ jobs:
         id: changedFilesMatrix
         run: |
 
-          MATRIX = "[" 
+          MATRIX="[" 
 
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo "$file was changed"
-            MATRIX = "${MATRIX}\"${file}\", "
+            MATRIX="${MATRIX}\"${file}\", "
           done
 
-          MATRIX = "${MATRIX::-2}]"
+          MATRIX="${MATRIX::-2}]"
           echo "${MATRIX}"
           echo '::set-output name=value::${MATRIX}'
 
@@ -44,7 +44,7 @@ jobs:
     strategy:
       matrix:
         value: ${{fromJson(needs.getchangedfiles.outputs.changedFilesMatrix)}}
-        
+
     steps:
       - run: |
           echo "${{ matrix.value }}"
