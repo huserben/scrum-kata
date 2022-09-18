@@ -9,7 +9,7 @@ jobs:
   getchangedfiles:
     runs-on: ubuntu-latest
     outputs:
-      matrix: ${{ steps.set-matrix.outputs.matrix }}
+      matrix: ${{ steps.set-matrix.outputs.value }}
     steps:
       - uses: actions/checkout@v2
 
@@ -29,16 +29,16 @@ jobs:
         id: set-matrix
         run: |
 
-          MATRIX="{\"include\":[" 
+          MATRIX="[" 
 
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo "$file was changed"
-            MATRIX="${MATRIX}{\"fileName\":\"${file}\"}, "
+            MATRIX="${MATRIX}'${file}',"
           done
 
-          MATRIX="${MATRIX::-2}]}"
+          MATRIX="${MATRIX::-1}]"
           echo "${MATRIX}"
-          echo "::set-output name=matrix::${MATRIX}"
+          echo "::set-output name=value::${MATRIX}"
 
   spellcheck:
     runs-on: ubuntu-latest
