@@ -48,8 +48,11 @@ jobs:
         value: ${{ fromJSON(needs.getchangedfiles.outputs.matrix) }}
 
     steps:
+      - uses: actions/checkout@v2
+
       - uses: rojopolis/spellcheck-github-actions@0.27.0
         name: Spellcheck
         with:
-          source_files: ${{ matrix.value }}
+          config_path: .github/workflows/spellcheck/.spellcheck.yml 
+          source_files: "${{ matrix.value }}"
           task_name: Markdown
