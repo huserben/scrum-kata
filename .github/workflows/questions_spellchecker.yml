@@ -7,6 +7,7 @@ on:
 
 jobs:
   getchangedfiles:
+    name: Get Changed Files
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.set-matrix.outputs.value }}
@@ -51,6 +52,7 @@ jobs:
 
   spellcheck:
     runs-on: ubuntu-latest
+    name: Run Spellchecks
     needs: getchangedfiles
     strategy:
       matrix:
@@ -70,7 +72,7 @@ jobs:
   buildall:
     if: ${{ always() }}
     runs-on: ubuntu-latest
-    name: Build (matrix)
+    name: Verify Spellcheck Results
     needs: spellcheck
     steps:
       - name: Check spellcheck status
