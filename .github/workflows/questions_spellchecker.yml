@@ -48,5 +48,7 @@ jobs:
         value: ${{ fromJSON(needs.getchangedfiles.outputs.matrix) }}
 
     steps:
-      - run: |
-          echo "${{ matrix.value }}"
+      - uses: rojopolis/spellcheck-github-actions@0.27.0
+        name: Spellcheck
+        with:
+          source_files: ${{ matrix.value }}
