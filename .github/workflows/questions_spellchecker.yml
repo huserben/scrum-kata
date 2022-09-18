@@ -43,7 +43,7 @@ jobs:
     needs: [getchangedfiles]
     strategy:
       matrix:
-        value: ${{fromJson(needs.getchangedfiles.outputs.changedFilesMatrix)}}
+        value: ${{needs.getchangedfiles.outputs.changedFilesMatrix}}
 
     steps:
       - run: |
