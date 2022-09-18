@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.set-matrix.outputs.value }}
+      any_changed: ${{ steps.changed-files.outputs.any_changed }}
     steps:
       - uses: actions/checkout@v2
 
@@ -24,6 +25,7 @@ jobs:
         with:
           files: |
             _questions/**
+            *.md
 
       - name: Put Changed Files in Matrix
         id: set-matrix
@@ -43,7 +45,7 @@ jobs:
           else
             MATRIX="${MATRIX::-1}]"
           fi
-          
+
           echo "${MATRIX}"
           echo "::set-output name=value::${MATRIX}"
 
@@ -58,6 +60,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - uses: rojopolis/spellcheck-github-actions@0.27.0
+        if: needs.getchangedfiles.outputs.any_changed == 'true'
         name: Spellcheck
         with:
           config_path: .github/workflows/spellcheck/.spellcheck.yml 
