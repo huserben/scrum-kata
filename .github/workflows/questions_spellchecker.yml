@@ -1,0 +1,80 @@
+name: Check Spelling of Questions
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  getchangedfiles:
+    name: Get Changed Files
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.value }}
+      any_changed: ${{ steps.changed-files.outputs.any_changed }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Get changed files in the _questions folder
+        id: changed-files
+        uses: tj-actions/changed-files@v29.0.7
+        with:
+          files: |
+            _questions/**
+            *.md
+
+      - name: Put Changed Files in Matrix
+        id: set-matrix
+        run: |
+
+          MATRIX="[" 
+
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo "$file was changed"
+            MATRIX="${MATRIX}'${file}',"
+          done
+
+          len=`echo ${MATRIX} |awk '{print length}'`
+          if [ $len -lt 3 ]; then
+            echo "No changed files"
+            MATRIX="${MATRIX}'none']"
+          else
+            MATRIX="${MATRIX::-1}]"
+          fi
+
+          echo "${MATRIX}"
+          echo "::set-output name=value::${MATRIX}"
+
+  spellcheck:
+    runs-on: ubuntu-latest
+    name: Run Spellchecks
+    needs: getchangedfiles
+    strategy:
+      matrix:
+        value: ${{ fromJSON(needs.getchangedfiles.outputs.matrix) }}
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: rojopolis/spellcheck-github-actions@0.27.0
+        if: needs.getchangedfiles.outputs.any_changed == 'true'
+        name: Spellcheck
+        with:
+          config_path: .github/workflows/spellcheck/.spellcheck.yml 
+          source_files: "${{ matrix.value }}"
+          task_name: Markdown
+
+  buildall:
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    name: Verify Spellcheck Results
+    needs: spellcheck
+    steps:
+      - name: Check spellcheck status
+        if: ${{ needs.spellcheck.result != 'success' }}
+        run: exit 1
