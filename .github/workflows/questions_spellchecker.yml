@@ -9,7 +9,7 @@ jobs:
   getchangedfiles:
     runs-on: ubuntu-latest
     outputs:
-      matrix: ${{ steps.changedFilesMatrix.outputs.changed_file_matrix }}
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
       - uses: actions/checkout@v2
 
@@ -26,26 +26,26 @@ jobs:
             _questions/**
 
       - name: Put Changed Files in Matrix
-        id: changedFilesMatrix
+        id: set-matrix
         run: |
 
-          MATRIX="[" 
+          MATRIX="{\"include\":[" 
 
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo "$file was changed"
-            MATRIX="${MATRIX}\"${file}\", "
+            MATRIX="${MATRIX}{\"fileName\":\"${file}\"}, "
           done
 
-          MATRIX="${MATRIX::-2}]"
+          MATRIX="${MATRIX::-2}]}"
           echo "${MATRIX}"
-          echo "::set-output name=changed_file_matrix::${MATRIX}"
+          echo "::set-output name=matrix::${MATRIX}"
 
   spellcheck:
     runs-on: ubuntu-latest
-    needs: [getchangedfiles]
+    needs: getchangedfiles
     strategy:
       matrix:
-        value: ${{fromJSON(needs.getchangedfiles.outputs.changed_file_matrix)}}
+        value: ${{ fromJSON(needs.getchangedfiles.outputs.matrix) }}
 
     steps:
       - run: |
