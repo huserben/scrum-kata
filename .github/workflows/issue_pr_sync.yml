@@ -23,9 +23,8 @@ jobs:
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.REPO_SCOPED_TOKEN }}
         with:
+          token: ${{ secrets.REPO_SCOPED_TOKEN }}
           delete-branch: true
           commit-message: "${{ github.event.issue.title }}"
           committer: ${{ github.event.issue.user.login }} <${{ github.event.issue.user.login }}@github.com>
