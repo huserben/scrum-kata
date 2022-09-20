@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "#NoDoD"
+parent: Questions
 ---
 
 ## #No DoD

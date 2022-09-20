@@ -1,7 +1,7 @@
 import os
 import sys
 
-# Script that creates a new markdown question file in the _questions folder.
+# Script that creates a new markdown question file in the questions folder.
 
 # -----------------------
 # prerequisite:
@@ -25,6 +25,7 @@ question_body_raw = sys.argv[2]
 question_body = """---
 layout: post
 title: \"{0}\"
+parent: Questions
 ---
 """.format(question_title)
 
@@ -40,7 +41,7 @@ for line in question_body_raw.splitlines():
         is_content_line = True
         
 
-output_file = os.path.join(base_directory, "..", "_questions", "{0}.md".format(question_title.lower().replace(" ", "_")))
+output_file = os.path.join(base_directory, "..", "questions", "{0}.md".format(question_title.lower().replace(" ", "_")))
 
 if not question_title or not is_content_line:
     print("No a valid Question - stopping")

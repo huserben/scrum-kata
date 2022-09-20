@@ -61,19 +61,6 @@ compress_html:
   blanklines: false
   profile: false
 
-collections:
-  # Define a collection named "questions", its documents reside in the "_questions" directory
-  questions:
-    permalink: "/:collection/:path/"
-    output: true
-
-just_the_docs:
-  # Define which collections are used in just-the-docs
-  collections:
-    # Reference the "tests" collection
-    questions:
-      # Give the collection a name
-      name: Questions
 
 
 
