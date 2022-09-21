@@ -26,7 +26,6 @@ jobs:
         with:
           files: |
             questions/**
-            *.md
 
       - name: Put Changed Files in Matrix
         id: set-matrix
