@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Coaching Crossfunctionality"
+title: "Coaching Cross-Functionality"
 parent: Katas
 ---
 How can cross-functionality be coached?
