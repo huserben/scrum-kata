@@ -16,10 +16,8 @@ We've got you covered with the questions, now go out there and practice!
 [Give me a Random Question](/random.html){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 
 
-If you don't know how to start? Head over to our [tips & tricks section](/scrum-questions/tips_tricks) and get inspired.
-
 **Want to submit your own questions? Awesome - click the Button and we'll tell you how!**
 [I want to contribute](/scrum-questions/contribute){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
-# Questions
+# Katas

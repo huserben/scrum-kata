@@ -3,7 +3,7 @@
 <head>
     <script>
         function downloadCsv() {
-            fetch('https://raw.githubusercontent.com/huserben/scrum-questions/gh-pages/questions.csv')
+            fetch('https://raw.githubusercontent.com/huserben/scrum-kata/gh-pages/questions.csv')
                 .then(response => response.text())
                 .then(result => {
                     var element = document.createElement('a');

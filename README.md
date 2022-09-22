@@ -1,1 +1,1 @@
-# scrum-questions
+# Scrum Kata
