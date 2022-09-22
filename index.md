@@ -17,7 +17,7 @@ We've got you covered with the questions, now go out there and practice!
 
 
 **Want to submit your own questions? Awesome - click the Button and we'll tell you how!**
-[I want to contribute](/scrum-questions/contribute){: .btn .fs-5 .mb-4 .mb-md-0 }
+[I want to contribute](/scrum-kata/contribute){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 # Katas

@@ -5,10 +5,10 @@
         function setAction(formData) {
             var title = encodeURIComponent(formData.title.value);
 
-            var body = `Author: ${formData.email.value}\r
+            var body = `This is a contribution of a question via the form on the website - \rPlease leave this text and the line below in. Feel free to still adjust your question after the dotted line.\r
             ---\r${formData.question.value}`;
 
-            if (title && formData.email.value && formData.question.value){
+            if (title && formData.question.value){
                 window.location.href = `https://github.com/huserben/scrum-kata/issues/new?title=${title}&body=${encodeURIComponent(body).trim()}`;
             }
             else{
@@ -68,12 +68,8 @@
     <div class="container">
         <form action="#" onsubmit="return setAction(this)">
 
-            <label for="emailInput"> Your email</label>
-            <input class="form_input" type="email" id="emailInput" name="email" placeholder="mycontact@gmail.com" required>
-
-
             <label for="titleInput">Title</label>
-            <input class="form_input" type="text" id="titleInput" name="title" placeholder="Title of your Question..." required>
+            <input class="form_input" type="text" id="titleInput" name="title" placeholder="This will be displayed in the navigation" required>
 
 
             <label for="questionInput">Question</label>

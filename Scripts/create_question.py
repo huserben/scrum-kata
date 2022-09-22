@@ -25,7 +25,7 @@ question_body_raw = sys.argv[2]
 question_body = """---
 layout: post
 title: \"{0}\"
-parent: Questions
+parent: Katas
 ---
 """.format(question_title)
 
