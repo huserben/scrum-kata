@@ -27,7 +27,7 @@ print('Output File csv: ', outputFileCsv)
 # Possible Question File Types
 types = ('*.md', '*.markdown')
 
-questions_directory = os.path.join(inputDirectory, "..", '_questions/')
+questions_directory = os.path.join(inputDirectory, "..", 'questions/')
 
 questions = []
 csv_header = ['title', 'question']

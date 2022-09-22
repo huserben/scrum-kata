@@ -20,13 +20,12 @@ jobs:
         with:
           python-version: 3.8
 
-      - name: Get changed files in the _questions folder
+      - name: Get changed files in the questions folder
         id: changed-files
         uses: tj-actions/changed-files@v29.0.7
         with:
           files: |
-            _questions/**
-            *.md
+            questions/**
 
       - name: Put Changed Files in Matrix
         id: set-matrix
