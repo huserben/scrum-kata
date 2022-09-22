@@ -9,7 +9,7 @@
             ---\r${formData.question.value}`;
 
             if (title && formData.email.value && formData.question.value){
-                window.location.href = `https://github.com/huserben/scrum-questions/issues/new?title=${title}&body=${encodeURIComponent(body).trim()}`;
+                window.location.href = `https://github.com/huserben/scrum-kata/issues/new?title=${title}&body=${encodeURIComponent(body).trim()}`;
             }
             else{
                 console.log("Cannot create question - not all info provided")

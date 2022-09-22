@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Scrum Questions
+title: Scrum Kata
 email: benj.huser@gmail.com
-repository: huserben/scrum-questions
+repository: huserben/scrum-kata
 description: >- # this means to ignore newlines until "baseurl:"
   TODO:
   Add some description
-baseurl: "/scrum-questions"
+baseurl: "/scrum-kata"
 url: "https://huserben.github.io"
 github_username:  huserben
 permalink: pretty
@@ -38,18 +38,18 @@ search_enabled: true
 
 aux_links:
   "Random Question":
-    - "//huserben.github.io/scrum-questions/random.html"
+    - "//huserben.github.io/scrum-kata/random.html"
   "Download Questions":
-    - "//huserben.github.io/scrum-questions/download.html"
+    - "//huserben.github.io/scrum-kata/download.html"
   "GitHub":
-    - "//github.com/huserben/scrum-questions"
+    - "//github.com/huserben/scrum-kata"
 
 last_edit_timestamp: true 
 last_edit_time_format: "%b %e %Y at %I:%M %p" 
 
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/huserben/scrum-questions"
+gh_edit_repository: "https://github.com/huserben/scrum-kata"
 gh_edit_branch: "main"
 gh_edit_view_mode: "tree"
 
