@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "#No DoD"
-parent: Questions
+parent: Katas
 ---
 
 ## #No DoD

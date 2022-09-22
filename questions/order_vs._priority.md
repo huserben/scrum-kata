@@ -1,6 +1,6 @@
 ---
 layout: post
 title: "Order vs. Priority"
-parent: Questions
+parent: Katas
 ---
 How is ordering a Product Backlog different than prioritizing?
