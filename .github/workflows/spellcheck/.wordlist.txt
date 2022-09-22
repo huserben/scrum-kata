@@ -1,8 +1,5 @@
 DoD
 nav
-Huser
 Katas
 Kata
 PBI
-Dev
-Devs
