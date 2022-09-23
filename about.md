@@ -5,4 +5,19 @@ permalink: /about/
 nav_order: 99
 ---
 
-Add some info here about us and the project?
+# About Scrum Kata
+Scrum Kata is a hobby project by professional Scrum Masters [Henadz Kavaliou](https://github.com/henadzkavaliou) and [Benji Huser](https://github.com/huserben).
+While preparing for the PSM-III assessment we tried to answer questions around Scrum in a practice group and discussed them together afterwards.
+In the complex domain there is rarely a single answer for a problem, and in the discussions we had we learned about the different angles all those potential problems could be tackled.
+
+We also realized that we came up with many questions that we'd like to share with the community so others can use them for their assessment preparation or just to work on their Scrum Master skills.
+
+Our current product goal is to provide a question library for all to use. In future this might change - if you have good ideas let us know!
+
+# Feedback
+We're eager to live up to the pillars of empricism and would love to hear your feedback. From bugs, general questions to feature requests - we're curious to hear from you!
+
+We're not making money witht his and have no intention to monetize this in any way in the future. We're trying our best to answer as fast as possible. But please be mindful that this is not always on highest on our backlog as we have our regular jobs and lifes away from Scrum Kata.
+
+## Contact
+In case of questions or if you want to report some use of third-party material, you can reach us via [email](mailto:scrumkata@gmail.com) or via [github](https://github.com/huserben/scrum-kata/issues).
