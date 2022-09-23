@@ -19,5 +19,9 @@ We're eager to live up to the pillars of empricism and would love to hear your f
 
 We're not making money witht his and have no intention to monetize this in any way in the future. We're trying our best to answer as fast as possible. But please be mindful that this is not always on highest on our backlog as we have our regular jobs and lifes away from Scrum Kata.
 
+# Open Source
+Scrum Kata is for the community, that's why we also host the whole project on [GitHub](https://github.com/huserben/scrum-kata) under an MIT license.
+Feel free to contribute, either by submitting your questions or by directly creating Pull Requests. We'd be delighted to see you getting involved.
+
 ## Contact
-In case of questions or if you want to report some use of third-party material, you can reach us via [email](mailto:scrumkata@gmail.com) or via [github](https://github.com/huserben/scrum-kata/issues).
+In case of questions or if you want to report some use of third-party material, you can reach us via [email](mailto:scrumkata@gmail.com) or via [GitHub](https://github.com/huserben/scrum-kata/issues).
