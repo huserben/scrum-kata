@@ -14,6 +14,8 @@ If you have a bigger set of questions to provide you can also reach out directly
 Please only submit questions that can be shared publically. If they are copyrighted (maybe they are part of a training) we cannot use them here.
 If you have the copyright on the questions you can also let us know and we could add some statements and/or links together with your questions.
 
+**If you submit your question you agree to our [Terms & Conditions](/scrum-kata/terms_conditions/)**
+
 {% include contact-form.html %}
 
 
