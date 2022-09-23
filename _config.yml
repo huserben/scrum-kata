@@ -41,8 +41,8 @@ aux_links:
     - "//huserben.github.io/scrum-kata/random.html"
   "Download Questions":
     - "//huserben.github.io/scrum-kata/download.html"
-  "GitHub":
-    - "//github.com/huserben/scrum-kata"
+  "Feedback":
+    - "//github.com/huserben/scrum-kata/issues/new?"
 
 last_edit_timestamp: true 
 last_edit_time_format: "%b %e %Y at %I:%M %p" 
