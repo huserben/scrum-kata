@@ -7,7 +7,7 @@ has_toc: false
 ---
 
 # Submit your Questions
-Do you have some nice question to share with the community? Fill in the form below and you will head over to GitHub (you'll need a GitHub account) to submit your question.
+Do you have some nice questions to share with the community? Fill in the form below, and you will head over to GitHub (you'll need a GitHub account) to submit your question.
 If you have a bigger set of questions to provide you can also reach out directly via [email](mailto:scrumkata@gmail.com) and we can add them.
 
 ## Important
