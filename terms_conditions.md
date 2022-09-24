@@ -16,7 +16,7 @@ Before you contribute a question, please be aware about the terms and conditions
 4. Submitting third-party material is not allowed, unless you've double checked with the original authors. Please reach out to us if you have questions.
 5. If you suspect your own or third-party material is being used on this site, please [send a message](/scrum-kata/about/#contact) immediately. The offending material will be removed as soon as possible.
 6. Contributions can be made via GitHub and need a GitHub account. Some terms and conditions from GitHub may apply.
-7. Contributions will be visible on GitHub and on the contributions page. If questions are submitted via GitHub, this is automatically included in the contributions section. If you submit questions otherwise we'll open to discuss how to credit you.
+7. Contributions will be visible on GitHub and the contributions page. If questions are submitted via GitHub, this will automatically include authors in the contributions section. If you submit questions otherwise, we are open to discussing how to credit you.
 8. Credits will not be displayed alongside the question.
 9. If you do not agree with the above conditions, or if you do not fully understand them, do not submit your material.
 
