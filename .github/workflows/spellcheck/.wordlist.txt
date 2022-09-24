@@ -4,3 +4,4 @@ Katas
 Kata
 PBI
 timebox
+analytics
