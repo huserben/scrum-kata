@@ -17,7 +17,7 @@ Our current product goal is to provide a question library for all to use. In fut
 # Feedback
 We're eager to live up to the pillars of empiricism and would love to hear your feedback. From bugs and general questions to feature requests - we're curious to hear from you!
 
-We're not making money witht his and have no intention to monetize this in any way in the future. We're trying our best to answer as fast as possible. But please be mindful that this is not always on highest on our backlog as we have our regular jobs and lifes away from Scrum Kata.
+We're not making money with this and have no intention to monetize this in any way in the future. We're trying our best to answer as fast as possible. But please be mindful that this is not always at the highest on our backlog as we have our regular jobs and lives away from Scrum Kata.
 
 # Open Source
 Scrum Kata is for the community, that's why we also host the whole project on [GitHub](https://github.com/huserben/scrum-kata) under an MIT license.
