@@ -6,7 +6,7 @@ nav_order: 2
 
 # Submit your Questions
 Do you have some nice question to share with the community? Fill in the form below and you will head over to github (you'll need a github account) to submit your question.
-If you have a bigger set of questions to provide you can also reach out directly via [email](mailto:benj.huser@gmail.com) and we can add them.
+If you have a bigger set of questions to provide you can also reach out directly via [email](mailto:scrumkata@gmail.com) and we can add them.
 
 ## Important
 Please only submit questions that can be shared publically. If they are copyrighted (maybe they are part of a training) we cannot use them here.
