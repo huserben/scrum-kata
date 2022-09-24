@@ -6,7 +6,7 @@ nav_order: 99
 ---
 
 # About Scrum Kata
-Scrum Kata is a hobby project by professional Scrum Masters [Henadz Kavaliou](https://github.com/henadzkavaliou) and [Benji Huser](https://github.com/huserben).
+Scrum Kata is a hobby project by professional Scrum Masters [Benji Huser](https://github.com/huserben) and [Henadz Kavaliou](https://github.com/henadzkavaliou).
 While preparing for the PSM-III assessment we tried to answer questions around Scrum in a practice group and discussed them together afterwards.
 In the complex domain there is rarely a single answer for a problem, and in the discussions we had we learned about the different angles all those potential problems could be tackled.
 
