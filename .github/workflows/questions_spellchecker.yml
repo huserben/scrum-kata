@@ -51,6 +51,7 @@ jobs:
 
   spellcheck:
     runs-on: ubuntu-latest
+    if: ${{ always() }}
     name: Run Spellchecks
     needs: getchangedfiles
     strategy:
