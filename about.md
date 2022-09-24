@@ -12,7 +12,7 @@ In the complex domain, there is rarely a single answer for a problem, and in the
 
 We also realized that we came up with many questions that we'd like to share with the community so others can use them for their assessment preparation or just to work on their Scrum Master skills.
 
-Our current product goal is to provide a question library for all to use. In future this might change - if you have good ideas let us know!
+Our current product goal is to provide a question library for all to use. In future, this might change - if you have good ideas, let us know!
 
 # Feedback
 We're eager to live up to the pillars of empricism and would love to hear your feedback. From bugs, general questions to feature requests - we're curious to hear from you!
