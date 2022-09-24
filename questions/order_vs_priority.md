@@ -4,4 +4,4 @@ title: "Order vs. Priority"
 parent: Katas
 ---
 
-How is ordering a Product Backlog different than prioritizing?
+How is ordering a Product Backlog different from prioritizing?
