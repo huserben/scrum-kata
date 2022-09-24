@@ -15,7 +15,7 @@ We also realized that we came up with many questions that we'd like to share wit
 Our current product goal is to provide a question library for all to use. In future, this might change - if you have good ideas, let us know!
 
 # Feedback
-We're eager to live up to the pillars of empricism and would love to hear your feedback. From bugs, general questions to feature requests - we're curious to hear from you!
+We're eager to live up to the pillars of empiricism and would love to hear your feedback. From bugs and general questions to feature requests - we're curious to hear from you!
 
 We're not making money witht his and have no intention to monetize this in any way in the future. We're trying our best to answer as fast as possible. But please be mindful that this is not always on highest on our backlog as we have our regular jobs and lifes away from Scrum Kata.
 
