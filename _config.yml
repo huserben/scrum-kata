@@ -53,6 +53,9 @@ gh_edit_repository: "https://github.com/huserben/scrum-kata"
 gh_edit_branch: "main"
 gh_edit_view_mode: "tree"
 
+ga_tracking: G-MQDZVVFZ2G
+ga_tracking_anonymize_ip: true
+
 compress_html:
   clippings: all
   comments: all
