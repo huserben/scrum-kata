@@ -2,6 +2,9 @@
 layout: post
 title: "Apply & Devise"
 parent: Katas
+tags:
+    - PSM-3
+    - Process
 ---
 The Scrum Guide says: "As Scrum is being used, patterns, processes, and insights that fit the Scrum framework as described in this document, may be found, applied and devised".
 
