@@ -33,6 +33,7 @@ baseurl: "/scrum-kata"
 url: "https://huserben.github.io"
 github_username:  huserben
 permalink: pretty
+logo: "/assets/images/scrumkatalogo.png"
 
 # Build settings
 theme: just-the-docs
