@@ -11,8 +11,8 @@ Do you have some tricky questions to share with the community? Fill in the form 
 If you have a set of questions to provide, you can also reach out directly via [email](mailto:scrumkata@gmail.com), and we can add them in bulk to save you time.
 
 ## Before you submit
-Please make sure to submit questions that can be shared publically. We cannot use them here if they are copyrighted (e.g., they are part of a training or a certification test).
-If you have the copyright on the questions, we could add some statements and/or links together with your questions. Do not hesitate to reach out!
+Please make sure to submit questions that can be shared publically. We cannot use them here if they are copyrighted (e.g., they are part of a training or a certification test). If you are not sure, reach out and we can try figuring it out together.
+If you have the copyright on the questions, we could add some statements and/or links together with your questions. Do not hesitate to contact us!
 
 **If you submit your question you agree to our [Terms & Conditions](/scrum-kata/terms_conditions/).**
 
