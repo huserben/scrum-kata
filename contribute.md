@@ -28,3 +28,5 @@ If you have the copyright on the questions, we could add some statements and/or 
   </li>
 {% endfor %}
 </ul>
+
+Also, we'd like to give credit to professional Scrum Masters (Sjoerd Nijland)[https://www.linkedin.com/in/sjoerd-nijland-9323376/], (Ryan Brook)[https://www.linkedin.com/in/ryan-brook-pst/], (Marc Bruisten)[https://www.linkedin.com/in/marcup/]. We added their PSM III questions to the library from their fantastic blog posts.
