@@ -8,10 +8,10 @@
             var body = `This is a contribution of a question via the form on the website - \rPlease leave this text and the line below in. Feel free to still adjust your question after the dotted line.\r
             ---\r${formData.question.value}`;
 
-            if (title && formData.question.value){
+            if (title && formData.question.value) {
                 window.location.href = `https://github.com/huserben/scrum-kata/issues/new?title=${title}&body=${encodeURIComponent(body).trim()}`;
             }
-            else{
+            else {
                 console.log("Cannot create question - not all info provided")
             }
 
@@ -69,7 +69,8 @@
         <form action="#" onsubmit="return setAction(this)">
 
             <label for="titleInput">Title</label>
-            <input class="form_input" type="text" id="titleInput" name="title" placeholder="This will be displayed in the navigation" required>
+            <input class="form_input" type="text" id="titleInput" name="title"
+                placeholder="Short Title of your Question" required maxlength="40">
 
 
             <label for="questionInput">Question</label>
