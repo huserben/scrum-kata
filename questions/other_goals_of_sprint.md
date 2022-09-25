@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Goal(s)?"
+title: "Other Goals of Sprint"
 parent: Katas
 ---
 The Scrum Guide states: "Their primary focus is on the work of the Sprint to make the best possible progress toward these goals."
