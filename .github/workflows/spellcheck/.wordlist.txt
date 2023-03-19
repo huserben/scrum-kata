@@ -5,3 +5,6 @@ Kata
 PBI
 timebox
 analytics
+subschema
+check-in
+check-out
