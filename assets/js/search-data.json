@@ -1,0 +1,590 @@
+{"0": {
+    "doc": "About",
+    "title": "About Scrum Kata",
+    "content": "Scrum Kata is a hobby project by professional Scrum Masters Benji Huser and Henadz Kavaliou. While preparing for the PSM-III assessment, we tried to answer questions around Scrum in a practice group and discussed them together afterwards. In the complex domain, there is rarely a single answer for a problem, and in the discussions we had, we learned about the different angles all those potential problems could be tackled. We also realized that we came up with many questions that we’d like to share with the community so others can use them for their assessment preparation or just to work on their Scrum Master skills. Our current product goal is to provide a question library for all to use. In future, this might change - if you have good ideas, let us know! . ",
+    "url": "https://huserben.github.io/scrum-kata/about/#about-scrum-kata",
+    "relUrl": "/about/#about-scrum-kata"
+  },"1": {
+    "doc": "About",
+    "title": "Feedback",
+    "content": "We’re eager to live up to the pillars of empiricism and would love to hear your feedback. From bugs and general questions to feature requests - we’re curious to hear from you! . We’re not making money with this and have no intention to monetize this in any way in the future. We’re trying our best to answer as fast as possible. But please be mindful that this is not always at the highest on our backlog as we have our regular jobs and lives away from Scrum Kata. ",
+    "url": "https://huserben.github.io/scrum-kata/about/#feedback",
+    "relUrl": "/about/#feedback"
+  },"2": {
+    "doc": "About",
+    "title": "Open Source",
+    "content": "Scrum Kata is for the community, that’s why we also host the whole project on GitHub under an MIT license. Feel free to contribute, either by submitting your questions or by directly creating Pull Requests. We’d be delighted to see you getting involved. ",
+    "url": "https://huserben.github.io/scrum-kata/about/#open-source",
+    "relUrl": "/about/#open-source"
+  },"3": {
+    "doc": "About",
+    "title": "Contact",
+    "content": "In case of questions or if you want to report some use of third-party material, you can reach us via email or via GitHub. ",
+    "url": "https://huserben.github.io/scrum-kata/about/#contact",
+    "relUrl": "/about/#contact"
+  },"4": {
+    "doc": "About",
+    "title": "About",
+    "content": " ",
+    "url": "https://huserben.github.io/scrum-kata/about/",
+    "relUrl": "/about/"
+  },"5": {
+    "doc": "Advice on the Scrum Team size",
+    "title": "Advice on the Scrum Team size",
+    "content": "A member of the organisation comes to you, the Scrum Master, asking for advice on how to organise the Scrum Teams for an upcoming project. He has the budget for approximately 15 developers and thinks this is too large for one team. What advice would you give him? What advice does Scrum have about Scrum Team size? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/advice_on_the_scrum_team_size/",
+    "relUrl": "/questions/advice_on_the_scrum_team_size/"
+  },"6": {
+    "doc": "Apply & Devise",
+    "title": "Apply & Devise",
+    "content": "The Scrum Guide says: “As Scrum is being used, patterns, processes, and insights that fit the Scrum framework as described in this document, may be found, applied and devised”. What examples could you name, and how can they be helpful for a Scrum Team? Can you think of examples when it could be harmful? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/apply_devise/",
+    "relUrl": "/questions/apply_devise/"
+  },"7": {
+    "doc": "Artifact Knowledge",
+    "title": "Artifact Knowledge",
+    "content": "Is it relevant that Developers and their Stakeholders are aware of the Scrum Artifacts and understand the purpose behind them? Why or why not? What would be made possible by having this knowledge? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/artifact_knowledge/",
+    "relUrl": "/questions/artifact_knowledge/"
+  },"8": {
+    "doc": "Birth of an Increment",
+    "title": "Birth of an Increment",
+    "content": "In the environment where a team pushes (code) changes frequently to build new versions of the product, is every new version an increment? Are only the versions that move a PBI to Done an increment? Or should we only push code changes if they fully complete a PBI (so that every version becomes a valid increment)? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/birth_of_an_increment/",
+    "relUrl": "/questions/birth_of_an_increment/"
+  },"9": {
+    "doc": "#Cancelled Sprint",
+    "title": "#Cancelled Sprint",
+    "content": "Is it a must to cancel the Sprint if its Goal becomes obsolete? If not, what will the team do within this Sprint? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/cancelled_sprint/",
+    "relUrl": "/questions/cancelled_sprint/"
+  },"10": {
+    "doc": "Cherry-Picking Scrum",
+    "title": "Cherry-Picking Scrum",
+    "content": "How do you deal with the situation where teams/organization pick &amp; choose some parts from Scrum but not others? When approached, they say that those things “would not work here” because of… . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/cherry_picking_scrum/",
+    "relUrl": "/questions/cherry_picking_scrum/"
+  },"11": {
+    "doc": "Coaching Cross-Functionality",
+    "title": "Coaching Cross-Functionality",
+    "content": "How can cross-functionality be coached? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/coaching_crossfunctionality/",
+    "relUrl": "/questions/coaching_crossfunctionality/"
+  },"12": {
+    "doc": "Committing to uncertainty",
+    "title": "Committing to uncertainty",
+    "content": "The Sprint Goal should provide flexibility in terms of the exact work needed to achieve it. Yet Developers are supposed to commit to that at the Sprint Planning. How is it possible to commit to something that provides flexibility like this? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/committing_to_uncertainty/",
+    "relUrl": "/questions/committing_to_uncertainty/"
+  },"13": {
+    "doc": "Conclude & Start",
+    "title": "Conclude & Start",
+    "content": "A Sprint always starts immediately after the previous one concludes, once your Retrospective has concluded. What do you do if you can’t have Sprint Planning right after the Retro (e.g. half of your team has a day off the next day and could not attend the usual planning)? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/conclude_and_start/",
+    "relUrl": "/questions/conclude_and_start/"
+  },"14": {
+    "doc": "Consensus as base for decisions",
+    "title": "Consensus as base for decisions",
+    "content": "If there are no sub-teams or hierarchies, does it mean all decisions are based on consensus? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/consensus_as_base_for_decisions/",
+    "relUrl": "/questions/consensus_as_base_for_decisions/"
+  },"15": {
+    "doc": "Container Event",
+    "title": "Container Event",
+    "content": "Why is a Sprint needed as a container event? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/container_event/",
+    "relUrl": "/questions/container_event/"
+  },"16": {
+    "doc": "Contribute",
+    "title": "Submit your Questions",
+    "content": "Do you have some tricky questions to share with the community? Fill in the form below to contribute! It will appear in the questions library after a quick review. Note that you’ll need a GitHub account to submit a question. If you have a set of questions to provide, you can also reach out directly via email, and we can add them in bulk to save you time. ",
+    "url": "https://huserben.github.io/scrum-kata/contribute/#submit-your-questions",
+    "relUrl": "/contribute/#submit-your-questions"
+  },"17": {
+    "doc": "Contribute",
+    "title": "Before you submit",
+    "content": "Please make sure to submit questions that can be shared publically. We cannot use them here if they are copyrighted (e.g., they are part of a training or a certification test). If you are not sure, reach out and we can try figuring it out together. If you have the copyright on the questions, we could add some statements and/or links together with your questions. Do not hesitate to contact us! . If you submit your question you agree to our Terms &amp; Conditions. Title Question . Thank you to the contributors of Scrum Kata! . | | | | | | | . Also, we’d like to give credit to professional Scrum Masters Sjoerd Nijland, Ryan Brook, Marc Bruisten. We added their PSM III questions to the library from their fantastic blog posts. ",
+    "url": "https://huserben.github.io/scrum-kata/contribute/#before-you-submit",
+    "relUrl": "/contribute/#before-you-submit"
+  },"18": {
+    "doc": "Contribute",
+    "title": "Contribute",
+    "content": " ",
+    "url": "https://huserben.github.io/scrum-kata/contribute/",
+    "relUrl": "/contribute/"
+  },"19": {
+    "doc": "Danger or not?",
+    "title": "Danger or not?",
+    "content": "How can a Scrum Team determine whether a change would endanger the Sprint Goal or not? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/danger_or_not/",
+    "relUrl": "/questions/danger_or_not/"
+  },"20": {
+    "doc": "Decisions based on the Artifacts",
+    "title": "Decisions based on the Artifacts",
+    "content": "The Scrum Guide says: “Important decisions are based on the perceived state of its three formal artifacts”. How are decisions based on the state of the artifacts? How can low transparency on the artifacts lead to increased risk? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/decisions_based_on_the_artifacts/",
+    "relUrl": "/questions/decisions_based_on_the_artifacts/"
+  },"21": {
+    "doc": "Developers don’t prepare for Refinement",
+    "title": "Developers don’t prepare for Refinement",
+    "content": "The Product Owner of your Scrum Team reaches out to you asking for help. The latest Backlog Refinement session was cancelled in the middle as everyone felt they were wasting their time - no one reviewed the latest updates of the Product Backlog Items, so the team couldn’t come up with meaningful conversations to refine them. What would be your suggestion in this case? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/developers_dont_prepare_for_refinement/",
+    "relUrl": "/questions/developers_dont_prepare_for_refinement/"
+  },"22": {
+    "doc": "Different times for the Daily",
+    "title": "Different times for the Daily",
+    "content": "Imagine you work in a team with a few part-time developers. Normally you hold your daily at 09:00, but on Tuesdays and Thursdays, two of the part-time developers only work in the afternoon and therefore can’t join. On the other days, some other people are not available in the afternoon. What would you do as the Scrum Master? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/different_times_for_the_daily/",
+    "relUrl": "/questions/different_times_for_the_daily/"
+  },"23": {
+    "doc": "DoD with multiple teams ",
+    "title": "DoD with multiple teams ",
+    "content": "Two Scrum teams are working on the same product to get the increment ready. One Scrum Team targets 80% code coverage, and they are running performance tests. The other Scrum Team leaves the coverage of the code to the discretion of each developer; they do not run performance tests because they consider that User Acceptance tests are much more important. As a Scrum Master, what do you think of this scenario? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/dod_with_multiple_teams_/",
+    "relUrl": "/questions/dod_with_multiple_teams_/"
+  },"24": {
+    "doc": "Does size matter?",
+    "title": "Does size matter?",
+    "content": "What should the team do if they want to take on an item in Sprint Planning, but they are not sure if it’s doable within one Sprint? What if they only realize this during Sprint Planning itself? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/does_size_matter/",
+    "relUrl": "/questions/does_size_matter/"
+  },"25": {
+    "doc": "Done or Not Done",
+    "title": "Done or Not Done",
+    "content": "During a Sprint Review, when Developers are answering questions about the increment, there is a discussion related to work on a specific Product Backlog Item that is not considered “Done” by some. The Developers that worked on the item are in disagreement. Some argue it is “Done”, others argue it is not. ",
+    "url": "https://huserben.github.io/scrum-kata/questions/done_or_not_done/",
+    "relUrl": "/questions/done_or_not_done/"
+  },"26": {
+    "doc": "Emancipating from Scrum?",
+    "title": "Emancipating from Scrum?",
+    "content": "Is a self-managing team empowered to drop Scrum itself? Or to drop individual events like the Daily Scrum? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/emancipating_from_scrum/",
+    "relUrl": "/questions/emancipating_from_scrum/"
+  },"27": {
+    "doc": "Enabler for Improvement",
+    "title": "Enabler for Improvement",
+    "content": "How can a Scrum Master enable the team to improve its practices? What within the Scrum framework helps them do that? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/enabler_for_improvement/",
+    "relUrl": "/questions/enabler_for_improvement/"
+  },"28": {
+    "doc": "Engaged Group of People",
+    "title": "Engaged Group of People",
+    "content": "Who and when identifies that the Scrum Team indeed have all the skills and expertise to do the work? How can it be validated at the beginning of the development? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/engaged_group_of_people/",
+    "relUrl": "/questions/engaged_group_of_people/"
+  },"29": {
+    "doc": "Explain Scrum to ...",
+    "title": "Explain Scrum to ...",
+    "content": "Explain Scrum to: . | a 5 year old; | a 90 year old; | someone outside of software development. | . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/explain_scrum_to/",
+    "relUrl": "/questions/explain_scrum_to/"
+  },"30": {
+    "doc": "External knowledge needed",
+    "title": "External knowledge needed",
+    "content": "You are the Scrum Master for three Scrum Teams working on the same project. There is one Product Backlog that all three teams must select from. There is one code base. All three Development Teams come to you because they are anticipating a problem in the upcoming two Sprints. Each Development Team needs full time support from an external person, Cindy. Cindy is the only person with check-in/check-out permission for the database subschema they will be changing. The Development Teams claim that they can’t proceed into these Sprints without Cindy, full time, on their team. What do you do? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/external_knowledge_needed/",
+    "relUrl": "/questions/external_knowledge_needed/"
+  },"31": {
+    "doc": "Failure to renegotiate Scope",
+    "title": "Failure to renegotiate Scope",
+    "content": "During the Sprint, the work turns out to be different than the team expected. The Developers try to collaborate with the PO to renegotiate the scope. But no agreement can be reached that would not affect the Sprint Goal. Should the Sprint be cancelled? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/failure_to_renegotiate_scope/",
+    "relUrl": "/questions/failure_to_renegotiate_scope/"
+  },"32": {
+    "doc": "Focus on Scrum Values for new Team",
+    "title": "Focus on Scrum Values for new Team",
+    "content": "When forming a new Scrum Team, how will you help them to focus on the values from day one? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/focus_on_scrum_values_for_new_team/",
+    "relUrl": "/questions/focus_on_scrum_values_for_new_team/"
+  },"33": {
+    "doc": "Harmful Scrum?",
+    "title": "Harmful Scrum?",
+    "content": "Can Scrum be harmful if not used as intended? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/harmful_scrum/",
+    "relUrl": "/questions/harmful_scrum/"
+  },"34": {
+    "doc": "Holding each other accountable",
+    "title": "Holding each other accountable",
+    "content": "What are ways to hold each other accountable as professionals? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/holding_each_other_accountable/",
+    "relUrl": "/questions/holding_each_other_accountable/"
+  },"35": {
+    "doc": "Impact on Value",
+    "title": "Impact on Value",
+    "content": "How does Scrum help generate value? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/impact_on_value/",
+    "relUrl": "/questions/impact_on_value/"
+  },"36": {
+    "doc": "Implement TIA",
+    "title": "Implement TIA",
+    "content": "How does the “Sprint Event” help to implement transparency, inspection &amp; adaptation? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/implement_tia/",
+    "relUrl": "/questions/implement_tia/"
+  },"37": {
+    "doc": "Improving transparency over the Artifacts",
+    "title": "Improving transparency over the Artifacts",
+    "content": "Decisions to optimise value and control risk are made based on the perceived state of the artifacts. Which Scrum events improve transparency over the artifacts? Explain how. ",
+    "url": "https://huserben.github.io/scrum-kata/questions/improving_transparency_over_the_artifacts/",
+    "relUrl": "/questions/improving_transparency_over_the_artifacts/"
+  },"38": {
+    "doc": "Katas",
+    "title": "Scrum Kata",
+    "content": "For helping software developers continuously work on their craft, there exist coding dojos where a group of craftspeople will solve katas together. Why not do the same thing as Agile Coach or Scrum Master? . Don’t wait and start to improve your skills by continuously challenging and pushing your Scrum Mastery skills. We’ve got you covered with the questions, now go out there and practice! . Give me a Random Question . Want to submit your own questions? Awesome - click the Button and we’ll tell you how! . I want to contribute . ",
+    "url": "https://huserben.github.io/scrum-kata/#scrum-kata",
+    "relUrl": "/#scrum-kata"
+  },"39": {
+    "doc": "Katas",
+    "title": "Katas",
+    "content": " ",
+    "url": "https://huserben.github.io/scrum-kata/",
+    "relUrl": "/"
+  },"40": {
+    "doc": "Inspecting the Outcome",
+    "title": "Inspecting the Outcome",
+    "content": "What does it mean that the “outcome” of the Sprint is inspected (compared to the “output”)? Or is it the same thing? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/inspecting_the_outcome/",
+    "relUrl": "/questions/inspecting_the_outcome/"
+  },"41": {
+    "doc": "Key stakeholder missing Sprint Review",
+    "title": "Key stakeholder missing Sprint Review",
+    "content": "You, as a Scrum Master, spent a fair effort to find a time slot for your team and stakeholders to hold Sprint Reviews. Though, one of your key stakeholders can’t come up with a stable schedule. She already missed the last two sessions, and the team mentioned the lack of feedback for the latest Increment. What will you do to help them out? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/key_stakeholder_missing_sprint_review/",
+    "relUrl": "/questions/key_stakeholder_missing_sprint_review/"
+  },"42": {
+    "doc": "Make lack of skills transparent",
+    "title": "Make lack of skills transparent",
+    "content": "If the developers do not have the skills to create an Increment every Sprint, what practices can be used to create as much transparency as possible? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/make_lack_of_skills_transparent/",
+    "relUrl": "/questions/make_lack_of_skills_transparent/"
+  },"43": {
+    "doc": "Making the emergent process visible",
+    "title": "Making the emergent process visible",
+    "content": "The Scrum Guide says: “The emergent process and work must be visible to those performing the work as well as those receiving the work.” How can the emergent process and work be made visible to those performing the work? How can it be made visible to those receiving it? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/making_the_emergent_process_visible/",
+    "relUrl": "/questions/making_the_emergent_process_visible/"
+  },"44": {
+    "doc": "Measuring Product Value",
+    "title": "Measuring Product Value",
+    "content": "How can a Scrum Team measure the value of the product? Is it their accountability to measure it? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/measuring_product_value/",
+    "relUrl": "/questions/measuring_product_value/"
+  },"45": {
+    "doc": "Metrics in complex environment",
+    "title": "Metrics in complex environment",
+    "content": "Our goal is to deliver value. To maximize it, teams make measurements and base their future decisions on them. But in a complex environment, how do they know that the change in metrics is caused by their actions and not by a random set of internal and external factors? When are metrics helpful, and when not? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/metrics_in_complex_environment/",
+    "relUrl": "/questions/metrics_in_complex_environment/"
+  },"46": {
+    "doc": "Multiple Whys in Sprint Goal",
+    "title": "Multiple Whys in Sprint Goal",
+    "content": "The Scrum Guide states: “The whole Scrum Team then collaborates to define a Sprint Goal that communicates why the Sprint is valuable to stakeholders”. Can a single Sprint Goal contain several points of value to stakeholders? Example: “Create a login page so that users can securely enter the platform AND learn the basic information about our product (as we don’t have a homepage yet)”. ",
+    "url": "https://huserben.github.io/scrum-kata/questions/multiple_whys_in_sprint_goal/",
+    "relUrl": "/questions/multiple_whys_in_sprint_goal/"
+  },"47": {
+    "doc": "No need for Daily?",
+    "title": "No need for Daily?",
+    "content": "Developers, arguing they are self-organising, indicate they no longer need the Daily Scrum. What would be your reaction as a Scrum Master? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/no_need_for_daily/",
+    "relUrl": "/questions/no_need_for_daily/"
+  },"48": {
+    "doc": "No other meetings",
+    "title": "No other meetings",
+    "content": "The Delivery Manager asks the Scrum Master and Developers not to have meetings outside the Sprint Events because she wants the Developers to write code because this is what they should do. How should the Scrum Master react to such a request? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/no_other_meetings/",
+    "relUrl": "/questions/no_other_meetings/"
+  },"49": {
+    "doc": "#No DoD",
+    "title": "#No DoD",
+    "content": "What if a developer refuses to conform to the Definition of Done (DoD)? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/nodod/",
+    "relUrl": "/questions/nodod/"
+  },"50": {
+    "doc": "Not all developers on Daily",
+    "title": "Not all developers on Daily",
+    "content": "What risk is introduced if not all Developers are present for the Daily Scrum? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/not_all_developers_on_daily/",
+    "relUrl": "/questions/not_all_developers_on_daily/"
+  },"51": {
+    "doc": "Not enough details for a Daily Scrum?",
+    "title": "Not enough details for a Daily Scrum?",
+    "content": "The Scrum Guide states: “The Sprint Backlog […] should have enough detail that they can inspect their progress in the Daily Scrum.” . What if the Sprint Backlog lacks enough details, hindering inspection during the Daily Scrum? What should the team do then? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/not_enough_details_for_a_daily_scrum/",
+    "relUrl": "/questions/not_enough_details_for_a_daily_scrum/"
+  },"52": {
+    "doc": "Not enough skills to deliver a Done increment",
+    "title": "Not enough skills to deliver a Done increment",
+    "content": "The Developers discussed that due to the absence of a Developer, they no longer have all the skills required to deliver a working “Done” Increment according to their Definition of Done (DoD). So they decide to adjust the DoD. What will be your reaction to this as the Scrum Master? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/not_enough_skills_to_deliver_a_done_increment/",
+    "relUrl": "/questions/not_enough_skills_to_deliver_a_done_increment/"
+  },"53": {
+    "doc": "Order vs. Priority",
+    "title": "Order vs. Priority",
+    "content": "How is ordering a Product Backlog different from prioritizing? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/order_vs_priority/",
+    "relUrl": "/questions/order_vs_priority/"
+  },"54": {
+    "doc": "Guidance to top management",
+    "title": "Guidance to top management",
+    "content": "You’ve recently joined an organization as a Scrum Master. The management reaches out to you and asks what they should do for their Scrum Teams. You feel like you are still out of context, but you must give them the first guidance. What might you answer? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/organization_and_scrum/",
+    "relUrl": "/questions/organization_and_scrum/"
+  },"55": {
+    "doc": "Other Goals of Sprint",
+    "title": "Other Goals of Sprint",
+    "content": "The Scrum Guide states: “Their primary focus is on the work of the Sprint to make the best possible progress toward these goals.” . What other goals are there in the Sprint besides the Sprint Goal? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/other_goals_of_sprint/",
+    "relUrl": "/questions/other_goals_of_sprint/"
+  },"56": {
+    "doc": "Over-running the time-box",
+    "title": "Over-running the time-box",
+    "content": "The Developers are regularly over-running the time-box for the Daily Scrum. Some of them appear actively bored. You notice that it is often one team member taking the majority of the time. How would you proceed? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/overrunning_the_time-box/",
+    "relUrl": "/questions/overrunning_the_time-box/"
+  },"57": {
+    "doc": "Passing ownership from PO to Developers",
+    "title": "Passing ownership from PO to Developers",
+    "content": "The Product Owner on your Scrum Team says that he trusts the Developers completely. He empowers them to take ownership of stakeholder management, product backlog management and identifying a sprint goal. How do you, the Scrum Master, proceed? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/passing_ownership_from_po_to_developers/",
+    "relUrl": "/questions/passing_ownership_from_po_to_developers/"
+  },"58": {
+    "doc": "Performance review by Scrum Master",
+    "title": "Performance review by Scrum Master",
+    "content": "HR is requesting the Scrum Master to provide input for a performance review from one of the members on the team (because Scrum Master is assumed to be closest to the day-to-day performance of people on the team). How do you, the Scrum Master, proceed? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/performance_review_by_scrum_master/",
+    "relUrl": "/questions/performance_review_by_scrum_master/"
+  },"59": {
+    "doc": "PO challenges the estimate from Developers",
+    "title": "PO challenges the estimate from Developers",
+    "content": "The Product Owner doesn’t understand the estimate given by the Developers regarding a Product Backlog item. The Product Owner is surprised to learn that the item is deemed very complex. The Product Owner refers to an earlier ‘similar’ Product Backlog item, which was not complex at all. How do you, the Scrum Master, proceed? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/po_challenges_the_estimate_from_developers/",
+    "relUrl": "/questions/po_challenges_the_estimate_from_developers/"
+  },"60": {
+    "doc": "Postponing Sprint Planning",
+    "title": "Postponing Sprint Planning",
+    "content": "The Product Owner suggests postponing the Sprint Planning as she hasn’t yet been able to process all the feedback from the Sprint Review into the Product Backlog. She argues it makes no sense to plan the Sprint if the Product Backlog isn’t in a transparent state. What would you, the Scrum Master, suggest? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/postponing_sprint_planning/",
+    "relUrl": "/questions/postponing_sprint_planning/"
+  },"61": {
+    "doc": "PO’s over-care of the product backlog ",
+    "title": "PO’s over-care of the product backlog ",
+    "content": "The Product Owner is highly conservative over who gets access to the Product Backlog, which is maintained in a personal spreadsheet. He argues that if anyone wants to have access to information about the Product Backlog, they can talk to him directly or join in on scheduled Product Backlog refinement sessions. What would be your reaction to this as the Scrum Master of the team? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/po%E2%80%99s_over-care_of_the_product_backlog/",
+    "relUrl": "/questions/po%E2%80%99s_over-care_of_the_product_backlog/"
+  },"62": {
+    "doc": "Predictability, Risk and Scrum",
+    "title": "Predictability, Risk and Scrum",
+    "content": "The Scrum Guide states: “Scrum employs an iterative, incremental approach to optimize predictability and to control risk.” . How is predictability optimized with Scrum? How is risk controlled? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/predictability_risk_and_scrum/",
+    "relUrl": "/questions/predictability_risk_and_scrum/"
+  },"63": {
+    "doc": "Process improvement vs Organisational policy",
+    "title": "Process improvement vs Organisational policy",
+    "content": "A Scrum Team implements a process improvement goal that is not in line with organisational policy and standards. They argue they are self-organising and should be able to break with the ‘old ways’ through small controlled experiments. ",
+    "url": "https://huserben.github.io/scrum-kata/questions/process_improvement_vs_organisational_policy/",
+    "relUrl": "/questions/process_improvement_vs_organisational_policy/"
+  },"64": {
+    "doc": "Reinforcing Commitments",
+    "title": "Reinforcing Commitments",
+    "content": "How do the three commitments help reinforce the Scrum Values? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/reinforcing_commitments/",
+    "relUrl": "/questions/reinforcing_commitments/"
+  },"65": {
+    "doc": "Relationships and interactions in Scrum",
+    "title": "Relationships and interactions in Scrum",
+    "content": "How are relationships and interactions guided by Scrum? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/relationships_and_interactions_in_scrum/",
+    "relUrl": "/questions/relationships_and_interactions_in_scrum/"
+  },"66": {
+    "doc": "Relative Efficacy ",
+    "title": "Relative Efficacy ",
+    "content": "The Scrum Guide claims: “Scrum makes visible the relative efficacy of current management, environment, and work techniques, so that improvements can be made.” . How is Scrum making visible the relative efficacy of: . | Current Management; | Environment; | Work Techniques? | . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/relative_efficacy/",
+    "relUrl": "/questions/relative_efficacy/"
+  },"67": {
+    "doc": "Remaining Work",
+    "title": "Remaining Work",
+    "content": "You have items left in the Sprint Backlog at the end of the Sprint. They are not related to the Sprint Goal you plan to select for the next Sprint. What will you do with those items? Is it wasteful to start an item and then not follow through with it? How can waste be reduced? Should the team not start items towards the end of the Sprint if they are not sure they can be done? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/remaining_work/",
+    "relUrl": "/questions/remaining_work/"
+  },"68": {
+    "doc": "Representing Artifacts",
+    "title": "Representing Artifacts",
+    "content": "How do the different artifacts (Product Backlog, Sprint Backlog, Increment) represent work or value? How do they maximise transparency? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/representing_artifacts/",
+    "relUrl": "/questions/representing_artifacts/"
+  },"69": {
+    "doc": "Requirements are not clear but PO is very busy",
+    "title": "Requirements are not clear but PO is very busy",
+    "content": "You are a Scrum Master working with a Scrum Team. The Developers constantly complain that requirements are not clear enough. The Product Owner claims she is too busy to provide extra clarity. What should you do? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/requirements_are_not_clear_but_po_is_very_busy/",
+    "relUrl": "/questions/requirements_are_not_clear_but_po_is_very_busy/"
+  },"70": {
+    "doc": "Scrum and Waste",
+    "title": "Scrum and Waste",
+    "content": "The Scrum Guide says: “Scrum is founded on empiricism and lean thinking … Lean thinking reduces waste and focuses on the essentials” . How does Scrum help reduce waste? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/scrum_and_waste/",
+    "relUrl": "/questions/scrum_and_waste/"
+  },"71": {
+    "doc": "Scrum Master as Impediment Remover",
+    "title": "Scrum Master as Impediment Remover",
+    "content": "Is Scrum Master accountable for the removal of impediments? If yes, how is the Scrum Master doing that? If no, who is accountable? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/scrum_master_as_impediment_remover/",
+    "relUrl": "/questions/scrum_master_as_impediment_remover/"
+  },"72": {
+    "doc": "Scrum Value Indicators",
+    "title": "Scrum Value Indicators",
+    "content": "Are there tangible indicators that a Scrum Team embodied the Scrum Values? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/scrum_value_indicators/",
+    "relUrl": "/questions/scrum_value_indicators/"
+  },"73": {
+    "doc": "Self-Empowered Teams",
+    "title": "Self-Empowered Teams",
+    "content": "What are signs that a Scrum team is empowered? What behaviours can you observe in a self-managing team? What is made possible by empowering a team? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/self-empowered_teams/",
+    "relUrl": "/questions/self-empowered_teams/"
+  },"74": {
+    "doc": "Skill Acquisition in the Product Backlog",
+    "title": "Skill Acquisition in the Product Backlog",
+    "content": "If the team lacks a skill, is it okay to have items about acquiring that skill (e.g. training, hiring etc.) in the Product Backlog assuming it’s needed to improve the Product? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/skill_acquisition_in_the_product_backlog/",
+    "relUrl": "/questions/skill_acquisition_in_the_product_backlog/"
+  },"75": {
+    "doc": "Skipping Retrospective upon CEO’s request",
+    "title": "Skipping Retrospective upon CEO’s request",
+    "content": "The CEO announces a ‘company event’. The event is scheduled to take place at the same time the Sprint Retrospective is scheduled. As not to ‘limit the impact of this event on the productivity’, the CEO instructs team to cancel, rather than pre- or postpone the Retrospective. She argues: ”They have so many anyways, and this new unique event is also somewhat of an informal gathering”. ",
+    "url": "https://huserben.github.io/scrum-kata/questions/skipping_retrospective_upon_ceo%E2%80%99s_request/",
+    "relUrl": "/questions/skipping_retrospective_upon_ceo%E2%80%99s_request/"
+  },"76": {
+    "doc": "Status and progress updates for PO on Daily",
+    "title": "Status and progress updates for PO on Daily",
+    "content": "The Product Owner insists on participating in the Daily Scrum so as to keep informed of the status and progress of development. How do you, the Scrum Master, proceed? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/status_and_progress_updates_for_po_on_daily/",
+    "relUrl": "/questions/status_and_progress_updates_for_po_on_daily/"
+  },"77": {
+    "doc": "Sum of the Increments",
+    "title": "Sum of the Increments",
+    "content": "At the Sprint Review, as stated in the Scrum Guide, “The sum of the Increments is presented”. How should this be understood? Would it be okay to show the second to last Increment in the Review? If so, under what conditions? If not, why not? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/sum_of_the_increments/",
+    "relUrl": "/questions/sum_of_the_increments/"
+  },"78": {
+    "doc": "Swapping planned items due to complexity",
+    "title": "Swapping planned items due to complexity",
+    "content": "During a Sprint, the Developers realise an item they selected in the forecast is much more complex than estimated. With approval from the Product Owner, the Developers change it for an item they think they can finish. How would you, the Scrum Master, proceed? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/swapping_planned_items_due_to_complexity/",
+    "relUrl": "/questions/swapping_planned_items_due_to_complexity/"
+  },"79": {
+    "doc": "Targets and Goals",
+    "title": "Targets and Goals",
+    "content": "The Scrum Guide states: “The Product Goal describes a future state of the product which can serve as a target for the Scrum Team to plan against”. If the Product Goal can serve as a target, does this mean there could also be other targets to plan against besides the Product Goal? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/targets_and_goals/",
+    "relUrl": "/questions/targets_and_goals/"
+  },"80": {
+    "doc": "Terms & Conditions",
+    "title": "Terms and conditions for Contributions",
+    "content": "Thanks for thinking about contributing. Our aim is to involve the community as much as possible. Before you contribute a question, please be aware about the terms and conditions that apply for questions: . | By submitting content, you give away any rights you may have on it. No legal claims can be made on material submitted. Your submitted question will be hosted on GitHub under an MIT License. | Therefore, only material you yourself have created and own may be submitted. | We reserve the right to make changes to your question or to not include it at all. | Submitting third-party material is not allowed, unless you’ve double checked with the original authors. Please reach out to us if you have questions. | If you suspect your own or third-party material is being used on this site, please send a message immediately. The offending material will be removed as soon as possible. | Contributions can be made via GitHub and need a GitHub account. Some terms and conditions from GitHub may apply. | Contributions will be visible on GitHub and the contributions page. If questions are submitted via GitHub, this will automatically include authors in the contributions section. If you submit questions otherwise, we are open to discussing how to credit you. | Credits will not be displayed alongside the question. | If you do not agree with the above conditions, or if you do not fully understand them, do not submit your material. | . ",
+    "url": "https://huserben.github.io/scrum-kata/terms_conditions/#terms-and-conditions-for-contributions",
+    "relUrl": "/terms_conditions/#terms-and-conditions-for-contributions"
+  },"81": {
+    "doc": "Terms & Conditions",
+    "title": "Contacting Us",
+    "content": "Please check on the About page how to get in contact. ",
+    "url": "https://huserben.github.io/scrum-kata/terms_conditions/#contacting-us",
+    "relUrl": "/terms_conditions/#contacting-us"
+  },"82": {
+    "doc": "Terms & Conditions",
+    "title": "Terms & Conditions",
+    "content": " ",
+    "url": "https://huserben.github.io/scrum-kata/terms_conditions/",
+    "relUrl": "/terms_conditions/"
+  },"83": {
+    "doc": "Three artifacts of the Scrum framework",
+    "title": "Three artifacts of the Scrum framework",
+    "content": "The Scrum framework identifies three artifacts. What are they? When are they inspected? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/three_artifacts_of_the_scrum_framework/",
+    "relUrl": "/questions/three_artifacts_of_the_scrum_framework/"
+  },"84": {
+    "doc": "#time-boxing",
+    "title": "#time-boxing",
+    "content": "How is time-boxing helpful for self-managing teams? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/time-boxing/",
+    "relUrl": "/questions/time-boxing/"
+  },"85": {
+    "doc": "Time lag for outcome",
+    "title": "Time lag for outcome",
+    "content": "What if the outcome of the Sprint can be inspected only with a time lag (e.g., after gathering analytics data from production)? How this may affect the way the team holds the Sprint Review? Should the team inspect the outcome of previous Sprints? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/time_lag_for_outcome/",
+    "relUrl": "/questions/time_lag_for_outcome/"
+  },"86": {
+    "doc": "Time over",
+    "title": "Time over",
+    "content": "What should a Scrum Team do if the timebox of an event is over, but the goal of the event is not achieved? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/time_over/",
+    "relUrl": "/questions/time_over/"
+  },"87": {
+    "doc": "Unexpected finding right before the Sprint Review",
+    "title": "Unexpected finding right before the Sprint Review",
+    "content": "Just prior to the Sprint Review, a Developer determines some aspects of a process deviate outside acceptable limits, and that the resulting product will be unacceptable. What should the Scrum Team do? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/unexpected_finding_right_before_the_sprint_review/",
+    "relUrl": "/questions/unexpected_finding_right_before_the_sprint_review/"
+  },"88": {
+    "doc": "Urgent items vs process improvement",
+    "title": "Urgent items vs process improvement",
+    "content": "The Product Owner asks the Developers to pick up a very urgent item late in Sprint that was not in the forecast, nor is it related to the Sprint Goal. The Developers believe it can pick this up, as it is close to meeting the Sprint Goal. But this would involve not meeting their process improvement goal agreed upon during the last Sprint Retrospective. The Product Owner argues that, as it’s the highest priority to satisfy the customer, the needs of the customer have a higher priority than the process improvement goal for the team. ",
+    "url": "https://huserben.github.io/scrum-kata/questions/urgent_items_vs_process_improvement/",
+    "relUrl": "/questions/urgent_items_vs_process_improvement/"
+  },"89": {
+    "doc": "Use of forecasting",
+    "title": "Use of forecasting",
+    "content": "How forecasting progress, using burn-downs, burn-ups or cumulative flows, might be useful for the team and the organisation? Does it supplement or conflict with empiricism? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/use_of_forecasting/",
+    "relUrl": "/questions/use_of_forecasting/"
+  },"90": {
+    "doc": "Use of the Product Backlog",
+    "title": "Use of the Product Backlog",
+    "content": "How does a Scrum Team use a Product Backlog? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/use_of_the_product_backlog/",
+    "relUrl": "/questions/use_of_the_product_backlog/"
+  },"91": {
+    "doc": "Useful, valuable Increment",
+    "title": "Useful, valuable Increment",
+    "content": "What makes an Increment valuable? What makes it useful? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/useful,_valuable_increment/",
+    "relUrl": "/questions/useful,_valuable_increment/"
+  },"92": {
+    "doc": "Velocity in Scrum Guide",
+    "title": "Velocity in Scrum Guide",
+    "content": "Does the Scrum Guide mention velocity? And whether it does or doesn’t which value(s) it’s related to? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/velocity_in_scrum_guide/",
+    "relUrl": "/questions/velocity_in_scrum_guide/"
+  },"93": {
+    "doc": "Wasteful events",
+    "title": "Wasteful events",
+    "content": "Some of the Developers see Scrum events as a waste of time because nothing comes out of them. The team seems to hold the events because the Scrum Guide says so. How would you approach this situation as the Scrum Master? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/wasteful_events/",
+    "relUrl": "/questions/wasteful_events/"
+  },"94": {
+    "doc": "What Definition of Done is",
+    "title": "What Definition of Done is",
+    "content": "One of the three pillars of Scrum is Transparency. One technique that improves transparency is using a Definition of Done. What is a Definition of Done? How does it support transparency? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/what_definition_of_done_is/",
+    "relUrl": "/questions/what_definition_of_done_is/"
+  },"95": {
+    "doc": "What is effectiveness?",
+    "title": "What is effectiveness?",
+    "content": "What is effectiveness? Can it be measured? How can it be increased? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/what_is_effectiveness/",
+    "relUrl": "/questions/what_is_effectiveness/"
+  },"96": {
+    "doc": "What Product Backlog Refinement is",
+    "title": "What Product Backlog Refinement is",
+    "content": "The Scrum Team you work with have missed their Sprint Goal for the last four Sprints. The Developers say this is because the Product Owner isn’t providing enough information on the Product Backlog Items. The Product Owner has heard about something called ‘Product Backlog Refinement’. How would you explain to him what Product Backlog Refinement is? What benefits are there if the Scrum Team start doing regular Product Backlog Refinement? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/what_product_backlog_refinement_is/",
+    "relUrl": "/questions/what_product_backlog_refinement_is/"
+  },"97": {
+    "doc": "What Sprint Review is",
+    "title": "What Sprint Review is",
+    "content": "One of the Scrum events is the Sprint Review. How does the Sprint Review enable empiricism? What would be the impact if some Developers were not present? . ",
+    "url": "https://huserben.github.io/scrum-kata/questions/what_sprint_review_is/",
+    "relUrl": "/questions/what_sprint_review_is/"
+  }
+}
