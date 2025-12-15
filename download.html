@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <script>
+        function downloadCsv() {
+            fetch('https://raw.githubusercontent.com/huserben/scrum-kata/gh-pages/questions.csv')
+                .then(response => response.text())
+                .then(result => {
+                    var element = document.createElement('a');
+                    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(result));
+                    element.setAttribute('download', "questions.csv");
+
+                    element.style.display = 'none';
+                    document.body.appendChild(element);
+
+                    element.click();
+
+                    document.body.removeChild(element);
+
+                    history.back();
+                })
+        }
+
+        downloadCsv();
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

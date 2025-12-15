@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <script>
+        function openRandomQuestion() {
+            fetch('https://raw.githubusercontent.com/huserben/scrum-kata/gh-pages/questions.json')
+                .then(result => result.json())
+                .then((questions) => {
+                    var question = questions[Math.floor(Math.random() * questions.length)];
+                    window.location.href = `/scrum-kata/questions/${question.path}`
+                }).catch(err => console.error(err));
+        }
+
+        openRandomQuestion();
+
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>
